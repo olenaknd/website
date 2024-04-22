@@ -1,16 +1,16 @@
 .footer {
-  padding: 30px 0 40px 0;
-  background-color: #3293b2;
+  padding: 30px 0 100px 0;
+  background-color: var(--add-third-color);
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-logo {
-  margin-bottom: 60px;
   font-size: 28px;
   font-weight: 600;
-  color: #f9fafb;
+  color: var(--light-text-color);
 }
